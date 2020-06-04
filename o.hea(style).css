@@ -1,0 +1,45 @@
+body{
+  margin:0;
+}
+h1,a,li,p{
+   font-family: cursive;
+  color:skyblue;
+  text-decoration: none;
+}
+ h1 {
+   font-size: 50px;
+   text-align: center;
+   border-bottom:2px solid lightblue;
+   margin:0;
+   padding:20px
+
+ }
+ ol{
+   border-right:2px solid lightblue;
+    width:90px;
+    margin:0;
+    padding:30px;
+
+ }
+ li:hover {
+    color:blue;
+  }
+ #grid{
+   display:grid;
+   grid-template-columns: 150px 1fr;
+ }
+
+ #grid ol{
+    padding: 30px;
+ }
+ #b{
+   padding-left: 30px;
+ }
+ @media(max-width:800px){
+   ol{
+     border-right: none;
+   }
+   #grid{
+     display: block;
+   }
+ }
